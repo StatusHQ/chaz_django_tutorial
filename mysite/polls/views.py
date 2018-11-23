@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 # Create your views here.
 from django.http import HttpResponse, Http404
+from django.utils import timezone
 from .models import Question
 
 #Simplest view possible
